@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: 'Dongle';
+  src: url('../fonts/Dongle-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.ttf') format('truetype');
+}
+#menu-toggle {
+	border: none;
+	background: none;
+	padding: 0;
+	cursor: pointer;
+}
+.menu-primary .sub-menu {
+  display: none; /* Oculta el submenú por defecto */
+  position: absolute; /* Posiciona el submenú de manera absoluta */
+  z-index: 1; /* Asegura que el submenú aparezca por encima del contenido */
+  background-color: #ffffff; /* Color de fondo del submenú */
+  padding: 10px; /* Espaciado interno del submenú */
+}
+.mobile-new .menu-primary .sub-menu {
+  display: none; /* Oculta el submenú por defecto */
+  position: absolute; /* Posiciona el submenú de manera absoluta */
+  z-index: 1; /* Asegura que el submenú aparezca por encima del contenido */
+  background-color: #ffffff; /* Color de fondo del submenú */
+  padding: 10px; /* Espaciado interno del submenú */
+}
+
+
+.menu-primary .menu-item-has-children:hover > .sub-menu {
+  display: block; /* Muestra el submenú al pasar el mouse */
+}
+.menu-item:hover > .sub-menu {
+  display: block; /* Muestra el submenú al pasar el cursor sobre el elemento del menú principal */
+}
+.burger-icon {
+	display: block;
+	width: 20px;
+	height: 2px;
+	background-color: #000;
+	margin: 4px;
+}
+body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 0;
+
+}
+ a {
+  text-decoration: none;
+} 
+.menu-primary-mobile a {
+  width: 194px;
+  height: 26px;
+  font-family: 'Dongle';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 26px;
+  color: #6371F4;
+}
+
+.menu-primary-mobile .sub-menu a {
+  width: 194px;
+  height: 26px;
+  font-family: 'Dongle';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #251F6E 
+}
+.menu-primary-mobile  > li:first-of-type > a {
+  /* Estilos personalizados */
+  color: #251F6E 
+}
+.menu-primary-mobile .sub-menu > li:first-of-type > a {
+  /* Estilos personalizados */
+  color: #6371F4;
+}
+/* Agregar línea después de cada elemento del menú principal */
+.menu-primary-mobile > li::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #6371F4;;
+  margin: 10px 0;
+}
+
+/* Agregar salto de línea después de cada elemento del menú principal */
+.menu-primary-mobile > li::after {
+  content: "\A";
+  white-space: pre;
+}
+
+.menu-primary li:first-child a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #6371F4; 
+  margin-top: 2px;
+}
+.menu-primary a {
+  color: #6371F4;
+  font-family: 'Dongle';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 35px
+
+}
+
+#mobile-menu {
+	display: none;
+}
+
+.show-mobile-menu #mobile-menu {
+	display: block;
+}
+nav.border-b {
+  border-bottom: none;
+}
+
+.menu-primary li a {
+    width: 90px;
+    height: 46px;
+    font-family: 'Dongle-header';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    margin-left: 20px;
+    color: #251F6E;
+        
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .button{
+    color: white;
+
+  }
+  
+  .logo {
+    position: relative;
+  }
+  
+  .ellipse {
+    position: absolute;
+    background: linear-gradient(180deg, #3646D9 -0.39%, rgba(196, 196, 196, 0) 114.45%);
+    margin-right: 20;
+
+  }
+  
+  .ellipse-2 {
+    width: 53.57px;
+    height: 61.77px;
+    left: 30.5px;
+    top: 5.33px;
+    transform: matrix(-1, 0.09, 0.09, 1, 0, 0);
+    margin-right: 20;
+    border-radius: 25%;
+
+
+  }
+  
+  .ellipse-3 {
+    width: 65.74px;
+    height: 53.58px;
+    left: 20.49px;
+    top: 3.91px;
+    transform: matrix(-0.16, 0.99, 0.99, 0.16, 0, 0);
+    margin-right: 20;
+    border-radius: 25%;
+
+
+  }
+  
+  .ellipse-4 {
+    width: 65.74px;
+    height: 53.58px;
+    left: 25.5px;
+    top: 5.25px;
+    transform: matrix(0.78, -0.63, -0.63, -0.78, 0, 0);
+    margin-right: 20;
+    margin-top: -50;
+    border-radius: 25%;
+
+  }
+  
+  .link {
+    font-family: 'Dongle';
+    font-weight: 700;
+    font-size: 2xl;
+    line-height: 75px;
+    color: #000000;
+    margin-left: 60px;
+  }
+  .white-link {
+    color: #FFFFFF;
+}
