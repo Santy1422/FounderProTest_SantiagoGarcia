@@ -17,7 +17,7 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Frontendfunn - Tailwindcss 2.x Vite App</title>
+  <title>FounderPro Test Santiago Garcia</title>
 </head>
 
 <body class="bg-gray-100">
@@ -27,7 +27,7 @@
         <div class="flex items-center">
           <a href="#" class="flex items-center">
 		  <img src="https://i.ibb.co/3RmC6B4/Group-6665-1.png" class="h-24 md:h-24 mr-3 md:mr-4 mt-3" alt="FounderPro">
-            <span class="self-center hidden md:block md:text-4xl font-semibold whitespace-nowrap">MORE</span>
+		  <span class="self-center hidden md:block md:text-4xl font-semibold whitespace-nowrap" style="color: black;">MORE</span>
           </a>
           <div class="md:hidden ml-auto">
           </div>
@@ -71,7 +71,6 @@
 </div>
 </header>
 
-  <!-- Rest of your HTML content -->
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
