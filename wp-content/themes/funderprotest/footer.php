@@ -14,69 +14,58 @@
 	<!-- <footer id="colophon" class="site-footer "> -->
 
 	<footer class="p-6 bg-black">
-    <div class="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-5 md:grid-cols-6">
-	<div class="flex flex-col space-y-4">
-    <h2 class="font-medium text-footer font-dongle">Trading</h2>
-    <div class="flex flex-col space-y-2 text-sm">
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Features</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Products & Spreads</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Account Types</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Demo Account</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Funded Accounts</a>
-
-
+    <div class="container grid grid-cols-1 mx-auto gap-x-3 gap-y-8 sm:grid-cols-5 md:grid-cols-6">
+      <div class="flex flex-col space-y-4">
+        <h2 class="font-medium text-footer font-dongle accordion active">Trading</h2>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a rel="noopener noreferrer" class="white-link font-dongle">Features</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">Products & Spreads</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">Account Types</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">Demo Account</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">Funded Accounts</a>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-4">
+        <h2 class="font-medium text-footer font-dongle accordion">Affiliate</h2>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a rel="noopener noreferrer" class="white-link font-dongle">Affiliate Program</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">PAMM Accounts</a>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-4">
+        <h2 class="font-medium text-footer font-dongle accordion">Help</h2>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a rel="noopener noreferrer" class="white-link font-dongle">FAQ</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">Contact Us</a>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-4">
+        <h2 class="font-medium text-footer font-dongle accordion">Learn</h2>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a rel="noopener noreferrer" class="white-link font-dongle">Education</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">News</a>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-4">
+        <h2 class="font-medium text-footer font-dongle accordion">About</h2>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a rel="noopener noreferrer" class="white-link font-dongle">About Us</a>
+        </div>
+      </div>
+      <div class="flex flex-col space-y-4">
+        <h2 class="font-medium text-footer font-dongle accordion">Resources</h2>
+        <div class="flex flex-col space-y-2 text-sm">
+          <a rel="noopener noreferrer" class="white-link font-dongle">Economic Calculator</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">Forex Calculators</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">Interest Calculator</a>
+          <a rel="noopener noreferrer" class="white-link font-dongle">Educational Blogs</a>
+        </div>
+      </div>
     </div>
-</div>
-		<div class="flex flex-col space-y-4">
-		<h2 class="font-medium text-footer font-dongle">Affiliate</h2>
-    <div class="flex flex-col space-y-2 text-sm">
-        <a rel="noopener noreferrer"  class="white-link font-dongle">Afilliate Program</a>
-        <a rel="noopener noreferrer"  class="white-link font-dongle">PAMM Accounts</a>
-
-
-    </div>
-</div>
-		<div class="flex flex-col space-y-4">
-		<h2 class="font-medium text-footer font-dongle">Help</h2>
-    <div class="flex flex-col space-y-2 text-sm">
-	<a rel="noopener noreferrer"  class="white-link font-dongle">FAQ</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Contact Us</a>
-
-
-    </div>
-</div>
-		<div class="flex flex-col space-y-4">
-		<h2 class="font-medium text-footer font-dongle">Learn</h2>
-    <div class="flex flex-col space-y-2 text-sm">
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Education</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">News</a>
+  </footer>
 
 
 
-    </div>
-</div>
-<div class="flex flex-col space-y-4">
-		<h2 class="font-medium text-footer font-dongle">About</h2>
-    <div class="flex flex-col space-y-2 text-sm">
-	<a rel="noopener noreferrer"  class="white-link font-dongle">About Us</a>
-
-
-    </div>
-</div>
-<div class="flex flex-col space-y-4">
-		<h2 class="font-medium text-footer font-dongle">Resources</h2>
-    <div class="flex flex-col space-y-2 text-sm">
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Economic Calculator</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Forex Calculators</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Interest Calculator</a>
-	<a rel="noopener noreferrer"  class="white-link font-dongle">Educational Blogs</a>
-
-
-    </div>
-
-</div>
-
-</footer>
 <div class="flex items-center justify-center  bg-black pl-1">
 	<svg class="mr-4" xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 27" fill="none">
 <path d="M7.54 0H18.46C20.4597 0 22.3776 0.824944 23.7916 2.29335C25.2056 3.76176 26 5.75336 26 7.83V19.17C26 21.2466 25.2056 23.2382 23.7916 24.7066C22.3776 26.1751 20.4597 27 18.46 27H7.54C5.54027 27 3.62244 26.1751 2.20842 24.7066C0.794391 23.2382 0 21.2466 0 19.17V7.83C0 5.75336 0.794391 3.76176 2.20842 2.29335C3.62244 0.824944 5.54027 0 7.54 0ZM7.28 2.7C6.03879 2.7 4.84841 3.21203 3.97074 4.12346C3.09307 5.03489 2.6 6.27105 2.6 7.56V19.44C2.6 20.729 3.09307 21.9651 3.97074 22.8765C4.84841 23.788 6.03879 24.3 7.28 24.3H18.72C19.9612 24.3 21.1516 23.788 22.0293 22.8765C22.9069 21.9651 23.4 20.729 23.4 19.44V7.56C23.4 6.27105 22.9069 5.03489 22.0293 4.12346C21.1516 3.21203 19.9612 2.7 18.72 2.7H7.28ZM19.825 4.725C20.256 4.725 20.6693 4.90279 20.974 5.21926C21.2788 5.53573 21.45 5.96495 21.45 6.4125C21.45 6.86005 21.2788 7.28928 20.974 7.60574C20.6693 7.92221 20.256 8.1 19.825 8.1C19.394 8.1 18.9807 7.92221 18.6759 7.60574C18.3712 7.28928 18.2 6.86005 18.2 6.4125C18.2 5.96495 18.3712 5.53573 18.6759 5.21926C18.9807 4.90279 19.394 4.725 19.825 4.725ZM13 6.75C14.7239 6.75 16.3772 7.46116 17.5962 8.72703C18.8152 9.9929 19.5 11.7098 19.5 13.5C19.5 15.2902 18.8152 17.0071 17.5962 18.273C16.3772 19.5388 14.7239 20.25 13 20.25C11.2761 20.25 9.62279 19.5388 8.40381 18.273C7.18482 17.0071 6.5 15.2902 6.5 13.5C6.5 11.7098 7.18482 9.9929 8.40381 8.72703C9.62279 7.46116 11.2761 6.75 13 6.75ZM13 9.45C11.9657 9.45 10.9737 9.87669 10.2423 10.6362C9.51089 11.3957 9.1 12.4259 9.1 13.5C9.1 14.5741 9.51089 15.6043 10.2423 16.3638C10.9737 17.1233 11.9657 17.55 13 17.55C14.0343 17.55 15.0263 17.1233 15.7577 16.3638C16.4891 15.6043 16.9 14.5741 16.9 13.5C16.9 12.4259 16.4891 11.3957 15.7577 10.6362C15.0263 9.87669 14.0343 9.45 13 9.45Z" fill="#8A94F7"/>
@@ -97,10 +86,10 @@
         <span class="white-link font-dongle">RISK DISCLOSURE: *The services and information provided by The Bored Traders Club are not directed at citizens or residents in the USA. Additionally, they are not intended for distribution to or used by any individual in any jurisdiction where such distribution would be contrary to local law or regulation.</span>
     </div>
 
-<div class="  flex items-center justify-center bg-black pl-1">
-    <a class="font-medium text-footer font-dongle mr-4" href="#">Risk Disclosure</a>
-    <a class="font-medium text-footer font-dongle mr-4" href="#">Terms & Conditions</a>
-    <a class="font-medium text-footer font-dongle" href="#">Privacy Policy</a>
+<div class="  flex items-center justify-center bg-black pl-1 ">
+    <a class="font-medium text-footer font-dongle mr-4 last-footer" >Risk Disclosure</a>
+    <a class="font-medium text-footer font-dongle mr-4 last-footer">Terms & Conditions</a>
+    <a class="font-medium text-footer font-dongle">Privacy Policy</a>
 </div>
 
 
@@ -108,5 +97,24 @@
 
 <?php wp_footer(); ?>
 
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const accordions = document.querySelectorAll('.accordion');
+
+      if (window.innerWidth >= 768) {
+        accordions.forEach(accordion => {
+          accordion.classList.add('active');
+        });
+      }
+
+      accordions.forEach(accordion => {
+        accordion.addEventListener('click', () => {
+          if (window.innerWidth < 768) {
+            accordion.classList.toggle('active');
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>

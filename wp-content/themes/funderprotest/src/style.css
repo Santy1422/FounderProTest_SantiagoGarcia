@@ -44,6 +44,7 @@
 	background-color: #000;
 	margin: 4px;
 }
+
 body {
   margin-left: auto;
   margin-right: auto;
@@ -51,6 +52,22 @@ body {
   margin-bottom: 0;
 
 }
+.accordion {
+  cursor: pointer;
+
+}
+
+.accordion + div {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.accordion.active + div {
+  height: auto;
+}
+
+
  a {
   text-decoration: none;
 } 
@@ -76,14 +93,11 @@ body {
   color: #251F6E 
 }
 .menu-primary-mobile  > li:first-of-type > a {
-  /* Estilos personalizados */
   color: #251F6E 
 }
 .menu-primary-mobile .sub-menu > li:first-of-type > a {
-  /* Estilos personalizados */
   color: #6371F4;
 }
-/* Agregar línea después de cada elemento del menú principal */
 .menu-primary-mobile > li::after {
   content: "";
   display: block;
@@ -93,7 +107,6 @@ body {
   margin: 10px 0;
 }
 
-/* Agregar salto de línea después de cada elemento del menú principal */
 .menu-primary-mobile > li::after {
   content: "\A";
   white-space: pre;
@@ -152,48 +165,7 @@ nav.border-b {
     position: relative;
   }
   
-  .ellipse {
-    position: absolute;
-    background: linear-gradient(180deg, #3646D9 -0.39%, rgba(196, 196, 196, 0) 114.45%);
-    margin-right: 20;
-
-  }
-  
-  .ellipse-2 {
-    width: 53.57px;
-    height: 61.77px;
-    left: 30.5px;
-    top: 5.33px;
-    transform: matrix(-1, 0.09, 0.09, 1, 0, 0);
-    margin-right: 20;
-    border-radius: 25%;
-
-
-  }
-  
-  .ellipse-3 {
-    width: 65.74px;
-    height: 53.58px;
-    left: 20.49px;
-    top: 3.91px;
-    transform: matrix(-0.16, 0.99, 0.99, 0.16, 0, 0);
-    margin-right: 20;
-    border-radius: 25%;
-
-
-  }
-  
-  .ellipse-4 {
-    width: 65.74px;
-    height: 53.58px;
-    left: 25.5px;
-    top: 5.25px;
-    transform: matrix(0.78, -0.63, -0.63, -0.78, 0, 0);
-    margin-right: 20;
-    margin-top: -50;
-    border-radius: 25%;
-
-  }
+ 
   
   .link {
     font-family: 'Dongle';

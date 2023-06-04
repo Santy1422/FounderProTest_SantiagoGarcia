@@ -58,7 +58,7 @@
 </div>
 </div>
 </nav>
-<div class="hidden mobile-new bg-gradient-to-br from-purple-100 via-white-40 to-transparent backdrop-filter backdrop-blur-lg box-border p-9 fixed inset-0 top-9 mt-16">
+<div class="hidden mobile-new bg-gradient-to-br from-purple-100 via-white-40 to-transparent backdrop-filter backdrop-blur-lg box-border p-9 fixed inset-0 top-9 mt-16" style="transform: translateY(20px);">
   <?php
   wp_nav_menu(array(
     'theme_location' => 'primary',
@@ -70,7 +70,6 @@
   ?>
 </div>
 </header>
-
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {

@@ -1,0 +1,9 @@
+# Ignorar directorios de WordPress
+/wp-admin/
+/wp-includes/
+
+# Ignorar archivos específicos
+wp-config.php
+license.txt
+readme.html
+
